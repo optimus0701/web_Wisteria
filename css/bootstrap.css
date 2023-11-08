@@ -4316,8 +4316,7 @@ button.close {
 	flex-direction: column;
 	width: 100%;
 	pointer-events: auto;
-	background-color: #fff;
-	background-clip: padding-box;
+	background-image: url('https://img4.thuthuatphanmem.vn/uploads/2019/12/17/hinh-nen-powerpoint-dep-va-don-gian_103813066.jpg');
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 0.3rem;
 	outline: 0;
@@ -7877,6 +7876,10 @@ button.close {
 
 .text-muted {
 	color: #6c757d !important;
+}
+
+.text-black {
+	color: #000 !important;
 }
 
 .text-black-50 {

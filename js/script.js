@@ -105,9 +105,11 @@
 			const submitHidden = document.getElementById("submit");
 			const formModal = document.getElementById("form-modal");
 
-			submitModal.addEventListener('click', function() {
-				submitHidden.click();
-			});
+			if(submitModal) {
+				submitModal.addEventListener('click', function() {
+					submitHidden.click();
+				});
+			}
 
 			// Hàm hiển thị modal sau 5 giây
 			function showModal() {
